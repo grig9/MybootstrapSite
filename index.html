@@ -1,0 +1,158 @@
+<html lang="en">
+  <head>
+    <title>Bootstrap 4</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    
+    <div class="jumbotron text-center">
+      <h1>My First Bootstrap 4 Page</h1>
+      <p>Resize this responsive page to see the effect!</p>
+    </div>
+
+    <nav class="shadow-lg navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="collapsibleNavbar">
+        <ul class="navbar-nav d-flex">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="#">Link</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>About Me</h2>
+          <h5>Photo of me:</h5>
+          <div class="fakeimg">Fake Image</div>
+          <p>Some text about me in culpa qui officia deserunt molit anim..</p>
+          <h3>Some Links</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <hr class="d-sm-none">
+        </div>
+        <div class="col-md-8">
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Dec 7, 2017</h5>
+          <div class="fakeimg">Fake Image</div>
+          <p>Some text..</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Eligendi odio temporibus minima nam provident nesciunt repellat cum sint quos fugiat!
+            Adipisci unde a modi tempore excepturi labore assumenda commodi neque?</p>
+          <p class="font-weight-bold">Comments:</p>
+          <ul class="posts p-0">
+            <li>
+              <div class="media border p-3">
+                <img src="img/img_avatar1.png" alt="John Doe" class="mr-3 mt-3 rounded-circle avatar">
+                <div class="media-body">
+                  <h4>John Doe <small><i>Posted on February 19, 2021</i></small>
+                    <a data-toggle="collapse" href="#demo"><i class="fas fa-plus"></i></a>
+                  </h4>
+                  
+                  <p id="demo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus architecto quo iure magni tenetur aperiam laudantium. Temporibus repudiandae eum exercitationem, iusto ut quasi non ipsam incidunt molestiae mollitia alias quae?</p>
+                  <div class="media p-3 collapse show">
+                    <img src="img/img_avatar2.png" alt="Jane Doe" class="mr-3 mt-3 rounded-circle avatar2">
+                    <div class="media-body">
+                      <h4>Jane Doe <small><i>Posted on February 20 2021</i></small></h4>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ex incidunt ipsum minus maxime assumenda, inventore ab at harum natus cum quis quaerat modi, quidem atque, aut quasi expedita velit.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="media border p-3">
+                <img src="img/img_avatar3.png" alt="Mike Conan" class="mr-3 mt-3 rounded-circle avatar">
+                <div class="media-body">
+                  <h4>Mike Conan <small><i>Posted on February 22, 2021</i></small></h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cumque laboriosam tempora qui, illum autem, tempore ratione quod dicta voluptate voluptates atque nobis tenetur aperiam. Laboriosam, vitae quis. Excepturi, quae.</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <hr>
+          <h2>TITLE HEADING</h2>
+          <h5>Title description, Dec 7, 2017</h5>
+          <div class="fakeimg">Fake Image</div>
+          <p>Some text..</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Eligendi odio temporibus minima nam provident nesciunt repellat cum sint quos fugiat!
+            Adipisci unde a modi tempore excepturi labore assumenda commodi neque?</p>
+        </div>
+      </div>
+      <div class="row border my-3">
+        <div class="col-md">
+          <h2 class="text-center">Aspect ration 16:9</h2>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" width="1280" height="720" src="https://www.youtube.com/embed/8qB8EGNOtr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-md">
+          <h2 class="text-center">Aspect ration 4:3</h2>
+          <div class="embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" width="1280" height="720" src="https://www.youtube.com/embed/8qB8EGNOtr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron text-center bg-dark text-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h2>FOOTER</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <i class="fas fa-cloud"></i>
+            <i class="fas fa-coffee"></i>
+            <i class="fas fa-car"></i>
+            <i class="fas fa-file"></i>
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+  </body>
+</html>
